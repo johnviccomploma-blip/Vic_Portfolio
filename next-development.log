@@ -1,0 +1,897 @@
+[00:00:02.872] Server  LOG      ✓ Ready in 2.1s
+[00:00:14.049] Server  LOG      ○ Compiling / ...
+[00:00:18.925] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:19.083] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="geist_a715...">
+                            <Header>
+                              <header className="bg-emerald...">
+                                <div className="max-w-7xl ...">
+                                  <div>
+                                  <ul
++                                   className={"\r\n                    flex flex-wrap justify-center gap-x-4 sm:spac..."}
+-                                   className={"   flex flex-wrap justify-center gap-x-4 sm:space-x-6   sm:absolute s..."}
+                                  >
+                            ...
+                  ...
+
+[00:00:20.033] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[00:00:20.035] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[00:00:20.057] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[00:00:20.455] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[00:00:21.777] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[00:00:21.778] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[00:00:21.779] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[00:00:21.785] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[00:00:22.403] Browser WARN    Image with src "/images/AS.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:05.777] Server  LOG      ✓ Compiled in 72ms
+[00:07:08.663] Server  LOG      ✓ Compiled in 59ms
+[00:09:08.161] Server  LOG      ✓ Compiled in 54ms
+[00:09:18.645] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:09:18.778] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[00:09:18.783] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="geist_a715...">
+                            <Header>
+                              <header className="bg-emerald...">
+                                <div className="max-w-7xl ...">
+                                  <div>
+                                  <ul
++                                   className={"\r\n                    flex flex-wrap justify-center gap-x-4 sm:spac..."}
+-                                   className={"   flex flex-wrap justify-center gap-x-4 sm:space-x-6   sm:absolute s..."}
+                                  >
+                            ...
+                  ...
+
+[00:09:18.820] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[00:09:18.824] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[00:11:08.734] Server  LOG      ✓ Compiled in 50ms
+[00:11:12.156] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[00:11:12.159] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[00:11:12.161] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[00:11:12.180] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[00:11:12.306] Browser WARN    Image with src "/images/AS.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:07.796] Server  LOG      ✓ Compiled in 44ms
+[00:12:21.481] Server  LOG      ✓ Compiled in 37ms
+[00:12:34.379] Server  LOG      ✓ Compiled in 57ms
+[00:12:55.860] Server  LOG      ✓ Compiled in 69ms
+[00:13:07.232] Server  LOG      ✓ Compiled in 104ms
+[00:13:09.471] Server  LOG      ✓ Compiled in 76ms
+[00:13:18.256] Server  LOG      ✓ Compiled in 28ms
+[03:59:48.501] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[03:59:48.502] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:59:48.515] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[03:59:48.584] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="geist_a715...">
+                            <Header>
+                              <header className="bg-emerald...">
+                                <div className="max-w-7xl ...">
+                                  <div>
+                                  <ul
++                                   className={"\r\n                    flex flex-wrap justify-center gap-x-4 sm:spac..."}
+-                                   className={"   flex flex-wrap justify-center gap-x-4 sm:space-x-6   sm:absolute s..."}
+                                  >
+                            ...
+                  ...
+
+[03:59:52.803] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:01:20.828] Server  LOG      ✓ Compiled in 204ms
+[04:01:58.268] Server  LOG      ✓ Compiled in 105ms
+[04:02:39.989] Server  LOG      ✓ Compiled in 63ms
+[04:02:51.363] Server  LOG      ✓ Compiled in 107ms
+[04:03:30.574] Server  LOG      ✓ Compiled in 103ms
+[04:03:44.226] Server  LOG      ✓ Compiled in 37ms
+[04:03:49.503] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[04:03:49.506] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[04:03:49.535] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[04:03:49.538] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[04:05:10.760] Server  LOG      ✓ Compiled in 119ms
+[04:05:25.314] Browser WARN    Image with src "/images/AS.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:05:34.916] Server  LOG      ✓ Compiled in 93ms
+[04:06:09.507] Server  LOG      ✓ Compiled in 67ms
+[04:06:23.344] Server  LOG      ✓ Compiled in 73ms
+[04:06:44.133] Server  LOG      ✓ Compiled in 61ms
+[04:06:44.140] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:06:59.659] Server  LOG      ✓ Compiled in 30ms
+[04:06:59.667] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:07:24.093] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[04:07:49.495] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[04:07:49.510] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:07:49.522] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:08:04.765] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:08:04.775] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:08:05.685] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:08:10.258] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[04:08:10.260] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[04:08:10.261] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[04:08:10.266] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[04:08:21.844] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[04:08:21.845] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:08:21.854] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:08:22.853] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:08:22.860] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:08:23.456] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:08:24.531] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[04:08:24.557] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[04:08:24.560] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[04:08:24.563] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[04:08:30.815] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[04:08:30.816] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:08:30.824] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:08:34.398] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:08:34.404] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:08:50.356] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:10:55.034] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/1st scene.jpg" "received" null
+[04:10:55.049] Server  LOG      ✓ Compiled in 42ms
+[04:11:00.218] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[04:11:00.220] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[04:11:00.220] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[04:11:00.228] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[04:11:03.246] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:11:03.296] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:11:03.299] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/1st scene.jpg" "received" null
+[04:11:03.302] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:11:03.303] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="geist_a715...">
+                            <Header>
+                              <header className="bg-emerald...">
+                                <div className="max-w-7xl ...">
+                                  <div>
+                                  <ul
++                                   className={"\r\n                    flex flex-wrap justify-center gap-x-4 sm:spac..."}
+-                                   className={"   flex flex-wrap justify-center gap-x-4 sm:space-x-6   sm:absolute s..."}
+                                  >
+                            ...
+                  ...
+
+[04:11:03.318] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:11:17.360] Server  LOG      ✓ Compiled in 40ms
+[04:11:17.366] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/1st scene. png" "received" null
+[04:11:22.498] Server  LOG      ✓ Compiled in 56ms
+[04:11:40.292] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[04:11:40.294] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[04:11:40.296] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[04:11:40.304] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[04:11:40.540] Browser WARN    Image with src "/images/AS.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:11:48.780] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[04:11:48.781] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:11:48.791] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:12:54.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:12:54.421] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:12:54.422] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="geist_a715...">
+                            <Header>
+                              <header className="bg-emerald...">
+                                <div className="max-w-7xl ...">
+                                  <div>
+                                  <ul
++                                   className={"\r\n                    flex flex-wrap justify-center gap-x-4 sm:spac..."}
+-                                   className={"   flex flex-wrap justify-center gap-x-4 sm:space-x-6   sm:absolute s..."}
+                                  >
+                            ...
+                  ...
+
+[04:12:54.430] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:12:55.376] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:12:56.841] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[04:12:56.843] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[04:12:56.844] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[04:12:56.856] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[04:13:59.054] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:13:59.055] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:13:59.105] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:13:59.152] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="geist_a715...">
+                            <Header>
+                              <header className="bg-emerald...">
+                                <div className="max-w-7xl ...">
+                                  <div>
+                                  <ul
++                                   className={"\r\n                    flex flex-wrap justify-center gap-x-4 sm:spac..."}
+-                                   className={"   flex flex-wrap justify-center gap-x-4 sm:space-x-6   sm:absolute s..."}
+                                  >
+                            ...
+                  ...
+
+[04:13:59.887] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:14:01.188] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[04:14:01.189] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[04:14:01.190] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[04:14:01.197] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[04:14:01.505] Browser WARN    Image with src "/images/AS.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:14:03.028] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[04:14:03.029] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:14:03.034] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:14:06.653] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:14:06.654] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:16:08.998] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:16:08.998] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="geist_a715...">
+                            <Header>
+                              <header className="bg-emerald...">
+                                <div className="max-w-7xl ...">
+                                  <div>
+                                  <ul
++                                   className={"\r\n                    flex flex-wrap justify-center gap-x-4 sm:spac..."}
+-                                   className={"   flex flex-wrap justify-center gap-x-4 sm:space-x-6   sm:absolute s..."}
+                                  >
+                            ...
+                  ...
+
+[04:16:09.036] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:16:09.110] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:16:10.202] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:16:46.227] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:16:46.277] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:16:46.295] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:16:46.315] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="geist_a715...">
+                            <Header>
+                              <header className="bg-emerald...">
+                                <div className="max-w-7xl ...">
+                                  <div>
+                                  <ul
++                                   className={"\r\n                    flex flex-wrap justify-center gap-x-4 sm:spac..."}
+-                                   className={"   flex flex-wrap justify-center gap-x-4 sm:space-x-6   sm:absolute s..."}
+                                  >
+                            ...
+                  ...
+
+[04:16:47.201] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:17:00.908] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:17:00.938] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:17:00.950] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:17:00.995] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="geist_a715...">
+                            <Header>
+                              <header className="bg-emerald...">
+                                <div className="max-w-7xl ...">
+                                  <div>
+                                  <ul
++                                   className={"\r\n                    flex flex-wrap justify-center gap-x-4 sm:spac..."}
+-                                   className={"   flex flex-wrap justify-center gap-x-4 sm:space-x-6   sm:absolute s..."}
+                                  >
+                            ...
+                  ...
+
+[04:17:02.208] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:17:03.301] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[04:17:03.302] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[04:17:03.303] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[04:17:03.308] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[04:39:20.529] Server  LOG      ✓ Compiled in 36ms
+[04:39:29.143] Server  LOG      ✓ Compiled in 77ms
+[04:39:54.292] Server  LOG      ✓ Compiled in 90ms
+[04:41:45.080] Server  LOG      ✓ Compiled in 84ms
+[04:41:47.933] Browser WARN    Image with src "/images/AS.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[04:41:55.310] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:41:55.312] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[04:41:55.320] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:41:56.270] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[04:41:57.095] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:41:57.096] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:42:34.207] Server  LOG      ✓ Compiled in 160ms
+[04:42:35.977] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:42:42.311] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[04:42:42.312] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:42:42.319] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:42:43.178] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:42:43.181] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:42:56.596] Server  LOG      ✓ Compiled in 65ms
+[04:42:58.072] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:43:16.690] Server  LOG      ✓ Compiled in 101ms
+[04:43:46.510] Server  LOG      ✓ Compiled in 88ms
+[04:43:55.165] Server  LOG      ✓ Compiled in 128ms
+[04:44:07.028] Server  LOG      ✓ Compiled in 92ms
+[04:44:23.027] Server  LOG      ✓ Compiled in 109ms
+[04:44:36.361] Server  LOG      ✓ Compiled in 93ms
+[04:44:55.668] Server  LOG      ✓ Compiled in 71ms
+[04:45:34.220] Server  LOG      ✓ Compiled in 139ms
+[04:45:44.385] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[04:45:44.389] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:45:44.397] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:45:45.660] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:45:45.666] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:46:32.096] Server  LOG      ✓ Compiled in 119ms
+[04:46:35.689] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:46:35.691] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[04:46:35.703] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:46:36.215] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[04:46:37.357] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:46:37.368] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:46:55.961] Server  LOG      ✓ Compiled in 29ms
+[04:46:57.445] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[04:46:57.447] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:46:57.448] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:46:58.029] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[04:46:59.721] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:46:59.722] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:47:13.708] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:48:59.187] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[04:49:00.327] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[04:49:00.334] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:49:00.336] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:49:01.278] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:49:01.281] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:49:07.324] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:49:13.278] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[04:49:13.280] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[04:49:13.281] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[04:49:13.287] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[04:49:37.037] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[04:49:37.038] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:49:37.044] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:49:42.054] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[04:49:44.219] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[04:49:44.228] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:49:44.229] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:49:44.846] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:49:44.849] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:51:23.515] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:51:26.436] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[04:51:26.437] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[04:51:26.438] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[04:51:26.443] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[04:51:36.091] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[04:51:36.099] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[04:51:36.100] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:51:39.024] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:51:39.025] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:51:39.650] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[04:51:40.509] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[04:51:40.511] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[04:51:41.148] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[10:43:09.985] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/BSS.png" "received" null
+[10:43:09.996] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[10:43:10.899] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[10:43:12.033] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[10:43:12.035] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[10:43:12.036] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[10:43:12.040] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[10:43:57.713] Server  LOG      ✓ Compiled in 88ms
+[10:44:55.310] Server  LOG      ✓ Compiled in 83ms
+[10:45:44.254] Server  LOG      ✓ Compiled in 49ms
+[10:46:41.423] Server  LOG      ✓ Compiled in 113ms
+[10:50:47.015] Server  LOG      ✓ Compiled in 36ms
+[10:50:47.468] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/VicDP.jpg" "received" null
+[10:51:00.316] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[10:51:02.137] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[10:51:02.138] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[10:51:02.147] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[10:51:02.918] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/VicDP.jpg" "received" null
+[10:51:02.923] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[10:51:17.964] Server  LOG      ✓ Compiled in 34ms
+[10:51:18.331] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[10:51:18.331] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[10:51:18.331] Browser ERROR   uncaughtError: Error: Failed to parse src "VicDP.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[10:51:37.798] Server  ERROR   C:\Users\ACER\Documents\vic-web\vic-web\.next\dev\server\chunks\ssr\node_modules_af886f75._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[10:51:37.800] Server  ERROR   TypeError: Invalid URL
+[10:51:37.817] Server  ERROR   C:\Users\ACER\Documents\vic-web\vic-web\.next\dev\server\chunks\ssr\node_modules_af886f75._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[10:51:37.818] Server  ERROR    ⨯ Error: Failed to parse src "VicDP.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[10:51:38.000] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:51:38.135] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[10:51:38.135] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[10:51:38.135] Browser ERROR   uncaughtError: Error: Failed to parse src "VicDP.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[10:52:24.959] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[10:52:25.088] Server  ERROR   C:\Users\ACER\Documents\vic-web\vic-web\.next\dev\server\chunks\ssr\node_modules_af886f75._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[10:52:25.089] Server  ERROR   TypeError: Invalid URL
+[10:52:25.093] Server  ERROR   C:\Users\ACER\Documents\vic-web\vic-web\.next\dev\server\chunks\ssr\node_modules_af886f75._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[10:52:25.094] Server  ERROR    ⨯ Error: Failed to parse src "VicDP.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[10:52:25.103] Server  LOG      ✓ Compiled in 31ms
+[10:52:25.286] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:52:26.338] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[10:52:26.338] Browser ERROR   {"message":"Failed to construct 'URL': Invalid URL"}
+[10:52:26.338] Browser ERROR   uncaughtError: Error: Failed to parse src "VicDP.jpg" on `next/image`, if using relative image it must start with a leading slash "/" or be an absolute URL (http:// or https://)
+[10:56:51.660] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:56:51.712] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[10:56:51.875] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body className="geist_a715...">
+                            <Header>
+                              <header className="bg-gray-70...">
+                                <div className="max-w-7xl ...">
+                                  <div>
+                                  <ul
++                                   className={"\r\n                    flex flex-wrap justify-center gap-x-4 sm:spac..."}
+-                                   className={"   flex flex-wrap justify-center gap-x-4 sm:space-x-6   sm:absolute s..."}
+                                  >
+                            ...
+                  ...
+
+[10:56:51.875] Browser WARN    Image with src "/images/VicDP.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[10:56:51.875] Browser WARN    Image with src "/images/VicDP.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[10:56:53.646] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[10:59:02.340] Server  LOG      ✓ Compiled in 53ms
+[10:59:19.315] Server  LOG      ✓ Compiled in 67ms
+[11:00:03.367] Server  LOG      ✓ Compiled in 68ms
+[11:00:13.657] Server  LOG      ✓ Compiled in 65ms
+[11:01:22.248] Server  LOG      ✓ Compiled in 124ms
+[11:01:29.351] Server  LOG      ✓ Compiled in 29ms
+[11:01:40.611] Server  LOG      ✓ Compiled in 49ms
+[11:01:50.696] Server  LOG      ✓ Compiled in 83ms
+[11:02:12.040] Server  LOG      ✓ Compiled in 51ms
+[11:02:14.342] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[11:02:14.343] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[11:02:14.344] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[11:02:14.347] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[11:02:37.764] Server  LOG      ✓ Compiled in 63ms
+[11:04:33.928] Server  LOG      ✓ Compiled in 88ms
+[11:04:39.880] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[11:04:39.890] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:04:39.891] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:04:43.240] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[11:04:48.464] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[11:04:48.470] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:04:48.472] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:04:49.298] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:04:51.216] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:04:52.231] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[11:04:52.232] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:04:52.238] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:04:53.090] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[11:04:53.596] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:04:53.597] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[11:04:53.598] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:04:53.940] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[11:04:54.868] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:04:55.949] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:04:55.955] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[11:04:55.956] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:04:56.624] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[11:04:57.294] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:04:58.022] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:04:58.979] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[11:04:58.989] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[11:04:58.990] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[11:04:58.991] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[11:05:21.961] Server  LOG      ✓ Compiled in 122ms
+[11:05:26.445] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[11:05:27.097] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:05:27.098] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[11:05:27.104] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:05:29.490] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:05:30.558] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:05:31.831] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[11:05:31.837] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[11:05:31.838] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[11:05:31.838] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[11:06:00.831] Server  LOG      ✓ Compiled in 53ms
+[11:06:02.609] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[11:06:02.610] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:06:02.617] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:06:04.528] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[11:06:29.700] Server  LOG      ✓ Compiled in 62ms
+[11:06:31.020] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[11:06:31.027] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:06:31.028] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:06:33.205] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:06:33.755] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:06:34.549] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[11:06:34.558] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[11:06:34.559] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[11:06:34.560] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[11:06:37.928] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[11:06:37.934] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:06:37.935] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:06:38.329] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[11:06:41.380] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[11:06:41.387] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:06:41.388] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:06:43.665] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:06:45.114] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:07:03.732] Server  LOG      ✓ Compiled in 41ms
+[11:07:05.766] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[11:07:05.771] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[11:07:05.772] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[11:07:05.772] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[11:07:38.293] Server  LOG      ✓ Compiled in 42ms
+[11:07:52.244] Server  LOG      ✓ Compiled in 33ms
+[11:08:19.514] Server  LOG      ✓ Compiled in 30ms
+[11:08:24.184] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-VicDP.jpg" "received" null
+[11:08:24.185] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:08:24.190] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:08:27.996] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[11:08:30.706] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:08:30.716] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-VicDP.jpg" "received" null
+[11:08:30.717] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:08:31.135] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:08:37.575] Server  LOG      ✓ Compiled in 75ms
+[11:08:39.147] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:08:39.885] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[11:08:39.886] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[11:08:39.887] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[11:08:39.890] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[11:08:45.135] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:08:45.141] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:08:45.257] Browser WARN    Image with src "/images/VicDP.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[11:10:51.427] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[11:11:03.560] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:12:33.768] Server  LOG      ✓ Compiled in 45ms
+[11:12:43.862] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:12:44.785] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[11:12:44.786] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[11:12:44.791] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[11:12:44.791] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[11:13:38.324] Server  LOG      ✓ Compiled in 54ms
+[11:13:48.455] Server  LOG      ✓ Compiled in 24ms
+[11:14:39.958] Server  LOG      ✓ Compiled in 41ms
+[11:15:37.971] Server  LOG      ✓ Compiled in 78ms
+[11:16:46.158] Server  LOG      ✓ Compiled in 56ms
+[11:16:54.061] Server  LOG      ✓ Compiled in 37ms
+[11:17:30.465] Server  LOG      ✓ Compiled in 77ms
+[11:17:30.548] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[11:17:30.548] Browser ERROR   Image is missing required "src" property: <img>
+[11:17:45.269] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[11:17:45.287] Server  LOG      ✓ Compiled in 41ms
+[11:17:46.604] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[11:17:46.612] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:17:46.613] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:17:47.373] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:18:02.705] Server  LOG      ✓ Compiled in 65ms
+[11:18:03.780] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:18:04.358] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[11:18:04.363] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[11:18:04.364] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[11:18:24.173] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[11:18:24.175] Server  LOG      ✓ Compiled in 49ms
+[11:18:34.043] Server  LOG      ✓ Compiled in 51ms
+[11:18:38.209] Server  LOG      ✓ Compiled in 54ms
+[11:19:01.041] Server  LOG      ✓ Compiled in 37ms
+[11:19:30.218] Server  LOG      ✓ Compiled in 79ms
+[11:19:31.977] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:19:31.988] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[11:19:31.991] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:19:34.909] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[11:19:36.723] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:19:37.464] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:19:38.376] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[11:19:38.377] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[11:19:38.383] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[11:19:38.384] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[11:19:55.210] Server  LOG      ✓ Compiled in 96ms
+[11:20:23.087] Server  LOG      ✓ Compiled in 30ms
+[11:20:27.318] Server  LOG      ✓ Compiled in 49ms
+[11:21:41.774] Server  LOG      ✓ Compiled in 94ms
+[11:21:52.232] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[11:21:52.239] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[11:21:52.240] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[11:22:00.825] Server  LOG      ✓ Compiled in 30ms
+[12:19:41.083] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[12:19:43.888] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[12:19:45.097] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[12:19:45.099] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[12:19:45.100] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[12:19:45.104] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[12:20:00.239] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[12:20:00.240] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[12:20:00.252] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[12:20:03.819] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/displaypic.jpg" "received" null
+[12:23:24.149] Server  LOG      ✓ Compiled in 79ms
+[12:25:43.214] Server  LOG      ✓ Compiled in 44ms
+[12:25:55.284] Server  LOG      ✓ Compiled in 67ms
+[12:26:47.497] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[12:26:47.500] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[12:26:47.507] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[12:26:48.180] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[12:26:49.374] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[12:26:50.636] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[12:26:50.644] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[12:26:50.645] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[12:26:50.646] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[12:32:19.416] Server  LOG      ✓ Compiled in 67ms
+[12:34:52.387] Server  LOG      ✓ Compiled in 43ms
+[12:35:03.576] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-project.png" "received" null
+[12:35:03.585] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-project.png" "received" null
+[12:35:03.586] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[12:39:04.673] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[12:39:05.709] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[12:39:05.712] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[12:39:05.719] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[12:39:05.754] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[12:40:18.922] Server  LOG      ✓ Compiled in 130ms
+[12:40:18.923] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-project.png" "received" null
+[12:41:30.974] Server  LOG      ✓ Compiled in 74ms
+[12:46:02.885] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/3d-icon.png" "received" null
+[12:46:02.886] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/2d-icon.png" "received" null
+[12:46:02.895] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/animation-icon.png" "received" null
+[12:46:02.896] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/images/cg-icon.png" "received" null
+[12:50:09.122] Server  LOG      ✓ Compiled in 34ms
+[12:51:55.500] Server  LOG      ✓ Compiled in 60ms
