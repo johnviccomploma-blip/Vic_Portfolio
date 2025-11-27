@@ -1,12 +1,8 @@
-import MainSection from "@/components/sections/main-section";
-import ServiceSection from "@/components/sections/service-section";
-import HeroSection from "@/components/sections/hero-section";
+import ProjectSection from "@/components/sections/project-section";
 
-export default function Home()
+export default function WorkPage()
 {
     return(<div>
-        <HeroSection/>
-        <MainSection/>
-        <ServiceSection/>
+        <ProjectSection/>
     </div>);
 }
